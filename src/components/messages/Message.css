@@ -1,0 +1,84 @@
+.message-container
+{
+    padding-bottom: 2px;
+    display: flex;
+    flex-shrink: 0;
+    user-select: none
+}
+.message-content
+{
+    background-color: #f1f0f0;
+    padding: 6px 12px;
+    border-radius: 18px;
+    font-size: 14px;
+}
+.message
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+    user-select: none
+}
+.sender-name
+{
+    color:#9aa7b1;
+    margin: 0;
+    font-size: 14px;
+    user-select: none
+}
+.sender-img-container
+{
+    display: flex;
+    user-select: none
+}
+.sender-img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.mine.first .message-content
+{
+    background-color: #1DA1F2;
+    color: #fff;
+    border-bottom-right-radius: 2px;   
+}
+
+.mine.last .message-content
+{
+    background-color: #1DA1F2;
+    color: #fff;
+    border-top-right-radius: 2px;    
+}
+
+.mine.middle .message-content
+{
+    background-color: #1DA1F2;
+    color: #fff;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.others.first .message-content
+{
+
+    border-bottom-left-radius: 2px;   
+}
+
+.others.last .message-content
+{
+
+    border-top-left-radius: 2px;    
+}
+
+.others.middle .message-content
+{
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.last 
+{
+    margin-bottom: 15px;
+}

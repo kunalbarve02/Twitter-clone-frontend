@@ -1,0 +1,24 @@
+.navbar-wrapper
+{
+    width: 50%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    cursor: pointer
+}
+.navbar-wrapper-text
+{
+    color: #657786;
+}
+.navbar-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-icon
+{
+    box-sizing: border-box;
+}

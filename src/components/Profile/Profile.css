@@ -1,0 +1,131 @@
+.profile-header-container
+{
+    width: 100%;
+}
+.profile-cover-container
+{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(101, 119, 134, 0.29);
+    position: relative;
+}
+
+.profile-profilepic-container
+{
+    width: 133.5px;
+    height: 133.5px;
+    position: absolute;
+    top: 120px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-profilepic
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 14px;
+    border: 4px solid white;
+}
+.profile-button-container
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding : 4px;
+    min-height: 66px;
+}
+.profile-button-container .msg-btn
+{
+    border-radius:40%;
+    height: 36px;
+    margin: 0px 15px;
+ }
+.follow
+{
+    border-bottom-left-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+    width: 80px;
+    height: 36px;
+}
+.follow:hover
+{
+    transition: 0.5s;
+    color: white;
+}
+
+.profile-user-details-container
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    margin: 0px 4px;
+    user-select: none;
+    height: 100%;
+}
+.profile-user-details-container p
+{
+    margin: 0px;
+}
+.profile-user-details-name
+{
+    font-weight:bolder;
+    color: #14171A;
+    margin: 0;
+    font-size: 23px;
+}
+.profile-user-details-username
+{
+    color:#657786;
+    margin: 0;
+    margin-left: 0.5vw;
+}
+.profile-user-folower-details
+{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-user-folower-details span
+{
+    font-weight:bold;
+}
+
+.profile-nav .nav-item .nav-link {
+    padding: 15px;
+}
+.profile-nav .nav-item:hover{
+    background-color: rgba(101, 119, 134, 0.19);
+}
+.active {
+    border-bottom: 4px solid #1DA1F2;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.profile-pic-icon
+{
+    color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    position: absolute;
+}
+.preview-container
+{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.preview-image
+{
+    width: 25em;
+}

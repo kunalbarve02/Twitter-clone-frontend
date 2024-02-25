@@ -1,0 +1,60 @@
+.main-user-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0px;
+    cursor: pointer;
+    border: 1px solid #F5F8FA;
+    flex-shrink: 0;
+    width: 100%;
+
+}
+.user-content-wrapper
+{
+    flex: 1;
+    display: flex;
+    padding: 1%;
+}
+.user-content-container
+{
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: fit-content;
+    min-height: 100px;
+}
+.user-profilepic-container
+{
+    width: 48px;
+    height: 48px;
+}
+.user-pic
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.user-header
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.user-name
+{
+    font-weight:bold;
+    color: #14171A;
+    margin: 0;
+}
+.user-username
+{
+    color:#9aa7b1;
+    margin: 0;
+    margin-left: 0.5vw;
+}
+.tweet-name:hover
+{
+    text-decoration: underline solid black 2px;
+}
